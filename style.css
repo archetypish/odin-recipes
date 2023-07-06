@@ -1,38 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #111827;
+    background-color: #010409;
     color: #fff;
-
+    font-size: 42px;
+    /* border: 2px solid red; */
+    height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
     width: 800px;
     margin: 0 auto;
+    /* border: 2px solid red; */
+
     
 }
 
+
+
 .title {
-    font-size: 48px;
+    font-size: 128px;
+    line-height: 1;
     font-weight: bold;
-    text-align: center;
-    color: #ffa500;
-    
+    text-align: left;
+    /* color: #ffa500; */
+    padding: 24px;
+    border: 12px solid magenta;
+    background-color: #161B22;
+    margin: 48px 0;
+    /* margin-bottom: 64px;; */
+
+}
+
+.highlight {
+    display: inline-block;
+    background-color: cyan;
+    padding: 8px; 
+    color: #161B22;
+    margin: 0px -12px;
 }
 
 .recipe-list {
     list-style-type: none;
-    text-align: center;
+    text-align: left;
+    border: 12px solid cyan;
+    background-color: #161B22;
+    padding: 24px 12px;
+    margin: 0;
+
+
 }
 
 .recipe-list .recipe {
-    font-size: 36px;
-    color: rgb(128, 128, 0);
+    font-family: 'Courier New', Courier, monospace;
+    color: cyan;
     text-decoration: none;
+    padding: 0 8px;
 }
 
 .recipe-list .recipe:hover {
-    color: rgb(255, 255, 0);
-    text-decoration: underline;
+    color: #161B22;
+    background-color: cyan;
 }
 
 .recipe-img {
