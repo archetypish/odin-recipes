@@ -3,3 +3,27 @@ body {
   background-color: #bd8607;
   color: #1e1e1e;
 }
+
+/* Page Heading */
+
+.title {
+  text-align: center;
+  font-size: 72px;
+  font-weight: 800;
+}
+
+.recipe-list {
+  list-style: none;
+  text-align: center;
+}
+
+.recipe-link {
+  text-decoration: none;
+  color: #810000;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.recipe-link:hover {
+  text-decoration: underline;
+}
