@@ -4,10 +4,13 @@ body {
   color: #1e1e1e;
 }
 
-/* Page Heading */
+/* Home page styles  */
+.title,
+.section-title {
+  text-align: center;
+}
 
 .title {
-  text-align: center;
   font-size: 72px;
   font-weight: 800;
 }
@@ -25,5 +28,28 @@ body {
 }
 
 .recipe-link:hover {
+  text-decoration: underline;
+}
+
+/* Recipe page styles */
+
+.section-title {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.text {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.link {
+  text-decoration: none;
+  color: #810000;
+  font-size: 40px;
+}
+
+.link:hover {
   text-decoration: underline;
 }
