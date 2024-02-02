@@ -69,3 +69,9 @@ body {
 .title {
   margin-bottom:120px;
 }
+
+/* Center recipe images */
+.recipe-img {
+  display: block;
+  margin: 0 auto;
+}
