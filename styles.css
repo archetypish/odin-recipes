@@ -41,7 +41,7 @@ body {
 .text {
   font-size: 24px;
   font-weight: 500;
-  line-height: 1.4;
+  line-height: 1.6;
 }
 
 .link {
@@ -89,6 +89,11 @@ body {
 
 .btn:hover {
   background-color: #5f0000;
+}
+
+/* Increase line spacing */
+.text {
+  line-height: 1.;
 }
 
 /* Center btn */
