@@ -55,8 +55,17 @@ body {
 }
 
 /* Layout for home page */
-/* 1. Add container to html to all pages and center them */
+/* Add container to html to all pages and center them */
 .container {
   width: 1200px;
   margin: 0 auto;
+}
+
+/* Add spacing on home page recipe list */
+.recipe {
+  margin-bottom: 64px;;
+}
+
+.title {
+  margin-bottom:120px;
 }
