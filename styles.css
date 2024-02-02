@@ -57,7 +57,7 @@ body {
 /* Layout for home page */
 /* Add container to html to all pages and center them */
 .container {
-  width: 1200px;
+  width: 900px;
   margin: 0 auto;
 }
 
@@ -90,3 +90,5 @@ body {
 .btn:hover {
   background-color: #5f0000;
 }
+
+/* Center btn */
