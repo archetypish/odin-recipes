@@ -75,3 +75,18 @@ body {
   display: block;
   margin: 0 auto;
 }
+
+/* Change Button Style to navigate back to home page*/
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 32px;
+  background-color: #810000;
+  color:#bd8607;
+  padding: 12px 24px;
+}
+
+.btn:hover {
+  background-color: #5f0000;
+}
