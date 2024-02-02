@@ -91,9 +91,7 @@ body {
   background-color: #5f0000;
 }
 
-/* Increase line spacing */
-.text {
-  line-height: 1.;
-}
-
 /* Center btn */
+.btn-container {
+  text-align: center;
+}
